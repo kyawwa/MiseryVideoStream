@@ -1,15 +1,15 @@
 {
-    "name": "ᴍɪsᴇʀʏ ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍᴇʀ",
-    "description": " ᴀ ᴛɢ ʙᴏᴛ ғᴏʀ ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏ ᴀɴᴅ ᴛɢᴄᴀʟʟs! ᴘʀᴏᴊᴇᴄᴛ ʙʏ @TurdusMaximus",
-    "logo": "https://telegra.ph/file/657969315fbe1a90fbb84.jpg",
+    "name": "Yohohoho ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍᴇʀ",
+    "description": " ᴀ ᴛɢ ʙᴏᴛ ғᴏʀ ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏ ᴀɴᴅ ᴛɢᴄᴀʟʟs! ᴘʀᴏᴊᴇᴄᴛ ʙʏ",
+    "logo": "https://telegra.ph/file/13ed8b2f39bfa807d2158.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream"
     ],
-    "website": "https://t.me/XeBorn",
+    "website": "https://t.me/yohohohokyawkyaw",
     "repository": "https://github.com/TurdusMaximus/MiseryVideoStream",
-    "success_url": "https://t.me/TurdusMaximus",
+    "success_url": "https://t.me/yohohohokyawkyaw",
     "env": {
         "API_ID": {
             "description": "ɢᴇᴛ ʏᴏᴜʀ ᴀᴘɪ_ɪᴅ ғʀᴏᴍ my.telegram.org ",
@@ -25,7 +25,7 @@
         },
         "BOT_USERNAME": {
             "description": "ʏᴏᴜʀ ʙᴏᴛ ᴜsᴇʀɴᴀᴍᴇ. ɢᴇᴛ ɪᴛ ғʀᴏᴍ @botfather",
-            "required": true
+            "required": false
         },
         "ASSISTANT_NAME": {
             "description": "ᴘᴜᴛ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀɴᴀᴍᴇ ʜᴇʀᴇ ᴡɪᴛʜᴏᴜᴛ @",
