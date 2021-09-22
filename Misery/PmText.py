@@ -59,7 +59,7 @@ async def start(client, message):
           reply_markup=reply_markup
        )
    else:
-      await message.reply(f"** 🍓 ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴇʙᴇ!! ~ @MiSERYOFFiCiAL**")
+      await message.reply(f"** 🍓 ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴇʙᴇ!! ~ @yohohoho**")
 
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
@@ -67,7 +67,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("「 ʙᴀᴄᴋ 」", callback_data="start"),
-                InlineKeyboardButton ("「 sᴜᴘᴘᴏʀᴛ 」", url=f"https://t.me/MiserySupport"),
+                InlineKeyboardButton ("「 sᴜᴘᴘᴏʀᴛ 」", url=f"https://t.me/yohohoho"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
