@@ -45,8 +45,8 @@ async def start(client, message):
                  InlineKeyboardButton("「 ɪɴғᴏ 」", callback_data="about"),
             ],
             [
-                InlineKeyboardButton("「 ᴍɪsᴇʀʏ ᴏғғɪᴄɪᴀʟ 」", url=f"https://t.me/MiSERYOFFiCiAL"),
-                InlineKeyboardButton("「 ᴍɪsᴇʀʏ sᴜᴘᴘᴏʀᴛ 」", url=f"https://t.me/MiserySupport"),
+                InlineKeyboardButton("「 YOHOHOHO ᴏғғɪᴄɪᴀʟ 」", url=f"https://t.me/yohohohokyawkyaw"),
+                InlineKeyboardButton("「 YOHOHOHO sᴜᴘᴘᴏʀᴛ 」", url=f"https://t.me/yohohohokyawkyaw"),
             ],
             [
                InlineKeyboardButton("「•ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ•」 ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
@@ -83,7 +83,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("「 ʙᴀᴄᴋ 」", callback_data="start"),
-                InlineKeyboardButton ("「 sᴜᴘᴘᴏʀᴛ 」", url=f"https://t.me/MiserySupport"),
+                InlineKeyboardButton ("「 sᴜᴘᴘᴏʀᴛ 」", url=f"https://t.me/yohohohokyawkyaw"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -106,11 +106,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton("「 ɪɴғᴏ 」", callback_data="about"),
             ],
             [
-                InlineKeyboardButton("「 ᴍɪsᴇʀʏ ᴏғғɪᴄɪᴀʟ 」", url=f"https://t.me/MiSERYOFFiCiAL"),
-                InlineKeyboardButton("「 ᴍɪsᴇʀʏ sᴜᴘᴘᴏʀᴛ 」", url=f"https://t.me/MiserySupport"),
+                InlineKeyboardButton("「  ᴏғғɪᴄɪᴀʟ 」", url=f"https://t.me/yohohohokyawkyaw"),
+                InlineKeyboardButton("「  sᴜᴘᴘᴏʀᴛ 」", url=f"https://t.me/yohohohokyawkyaw"),
             ],
             [
-               InlineKeyboardButton("「•ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ•」", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+               InlineKeyboardButton("「•ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ•」", url=f"https://t.me/{BOT_USERNAME}?startgroup=false"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
